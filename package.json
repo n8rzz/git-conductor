@@ -1,0 +1,34 @@
+{
+  "name": "git-conductor",
+  "version": "0.0.1",
+  "description": "Perform bulk commands on multiple git repositories at once",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "publish": "np --no-yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8rzz/git-conductor.git"
+  },
+  "keywords": [
+    "git",
+    "bulk",
+    "node",
+    "cli"
+  ],
+  "author": "n8rzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n8rzz/git-conductor/issues"
+  },
+  "homepage": "https://github.com/n8rzz/git-conductor#readme",
+  "dependencies": {
+    "@n8rzz/branches": "^1.0.0",
+    "chalk": "^2.4.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "np": "^3.0.4"
+  }
+}
