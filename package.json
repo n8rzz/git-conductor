@@ -17,6 +17,10 @@
     "node",
     "cli"
   ],
+  "preferGlobal": true,
+  "bin": {
+    "conductor": "./bin/conductor.js"
+  },
   "author": "n8rzz",
   "license": "MIT",
   "bugs": {
